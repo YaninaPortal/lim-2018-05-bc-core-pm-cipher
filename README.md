@@ -13,7 +13,7 @@ crear una aplicación que te permita enviar mensajes cifrados y que las demás
 personas (partícipes de la fiesta) puedan tener una interfaz para
 descifrarlo. Así que ahora te toca aplicar tus superpoderes 😎
 
-## Introducción
+## _Otro
 
 El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher) es uno de los
 primeros métodos de cifrado conocidos históricamente. Es un tipo de cifrado por

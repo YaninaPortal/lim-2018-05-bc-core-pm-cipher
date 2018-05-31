@@ -2,36 +2,22 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no , initial-scale=1.0 , maximum-scale=1.0, minium-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="fonts/style.css" />
   </head>
   <body>
-     
-        
-        <div class="center">
-            <h1>Cifrado César</h1>
-            
-            <div class="cols">
-              <div class="col n1">
-                <textarea id="text">Introduce aqui el texto para ENCRIPTAR por clave cesar.
-                </textarea>
-                <input type="number" id='k' placeholder=" Desplazamientos">
-                <textarea id="text2"></textarea>
-                
-            </div>
-      
-            <div class="col n2">
-                <textarea id="text3">Introduce aqui el texto para DESENCRIPTAR por clave cesar.
-                </textarea>
-                <textarea id="text4"></textarea>
-                
-      
-            </div>
-            
-              
-            
-          </div>
-     
+      <div class="contenedor"> 
+         
+             
+        <a href="cifrado.html" class="button radius"><span class="icon-home3"></span> CIFRAR</a>
+        <a href="decifrado.html" class="button radius">DECIFRAR</a>
+         
+      </div>
+
+    <div id="root"></div>
     <script src="cipher.js"></script>
     <script src="index.js"></script>
   </body>

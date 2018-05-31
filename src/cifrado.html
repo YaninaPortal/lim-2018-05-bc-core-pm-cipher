@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cifrado</title>
+    <link rel="stylesheet" href="cifrado.css">
+    
+</head>
+<body>
+    <h1>Nivel de Seguridad de Cifrado</h1>
+
+    <div style="width: 100%">
+        <div class="caja1">Basico<br> 65 - 82</div>
+        <div class="caja2">Intermedio <br> 83 - 102</div>
+        <div class="caja3">Alto<br> 103 - 122</div>
+    </div>
+    
+    
+    <input type="number" placeholder="Nivel de Seguridad"  min="65" max="122" id="desplazamiento" >
+    
+    <textarea name="comentariosACifrar" rows="10" cols="30" placeholder="Mensaje a Cifrar" id="entrada_para_cifrar"></textarea>
+     
+   <button type="button" class="button radius" id="button_cifrar">Cifrar</button>
+
+    
+
+    <p id="salida_de_cifrado">Mensaje Cifrado</p>
+
+    <a href="index.html" class="button radius inicio">Inicio </a>
+    <script src="index.js"></script>
+    <script src="cipher.js"></script>
+   
+</body>
+</html>

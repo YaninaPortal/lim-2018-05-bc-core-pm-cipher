@@ -26,7 +26,6 @@ window.cipher = {
       let valorDeLaCaja22 = parseInt(caja2.value);
       let codigoDecifrado = cipher.decode(valorDeLaCaja22 , valorDeLaCaja11); 
       caja3.innerHTML = codigoDecifrado;
-      console.log(codigoDecifrado);
       });
   
   

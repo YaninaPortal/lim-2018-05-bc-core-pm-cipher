@@ -10,6 +10,10 @@ window.cipher = {
          let cambio22 = (cambioDecifrado+65-offset)%26 + 65;
          let cambio33 = String.fromCharCode(cambio22);
          resultado2 += cambio33}
+         else if(cambioDecifrado>=97 && cambioDecifrado<=122){
+          let cambio22 = (cambioDecifrado+65-offset)%26 + 65;
+          let cambio33 = String.fromCharCode(cambio22);
+          resultado2 += cambio33}
          else if(cambioDecifrado === 32){
            resultado2 += String.fromCharCode(32);
          }

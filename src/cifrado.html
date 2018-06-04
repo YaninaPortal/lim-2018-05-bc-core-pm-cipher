@@ -6,30 +6,36 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Cifrado</title>
     <link rel="stylesheet" href="cifrado.css">
-    
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 </head>
 <body>
     <h1>Nivel de Seguridad de Cifrado</h1>
 
-    <h2>Hola</h2>
-
     <div style="width: 100%">
-        <div class="caja1">Basico<br> 65 - 82</div>
-        <div class="caja2">Intermedio <br> 83 - 102</div>
-        <div class="caja3">Alto<br> 103 - 122</div>
+        <div class="caja1">Basico<br> 1 - 20</div>
+        <div class="caja2">Intermedio <br> 20 - 40</div>
+        <div class="caja3">Alto<br> + 40</div>
     </div>
-    
-    
-    <input type="number" placeholder="Nivel de Seguridad"  min="65" max="122" id="desplazamiento" >
-    
+    <div id="grupo1">
+    <i class="icon2 far fa-hand-point-right"></i>
+    <input type="number" placeholder="Nivel de Seguridad"  min="1" max="" id="desplazamiento" >
+    </div>
+    <div id="grupo2"> 
+    <i class="icon3 far fa-envelope-open"></i>
     <textarea name="comentariosACifrar" rows="10" cols="30" placeholder="Mensaje a Cifrar" id="entrada_para_cifrar"></textarea>
-     <button type="button" class="button radius" id="button_cifrar">Cifrar</button>
-    <p id="salida_de_cifrado">Mensaje Cifrado</p>
-
-    <a href="index.html" class="button radius inicio">Inicio </a>
-    
+    </div>
+    <button type="button" class="button radius" id="button_cifrar">Cifrar</button>
+    <div id="grupo3">
+    <i class="icon3 far fa-envelope-open"></i>
+    <p id="salida_de_cifrado">El mensaje Cifrado</p>
+    </div>
+    <div id="grupo4">
+    <a href="index.html" class="button radius inicio" id="volveraincio">Inicio </a>
+    <i class="icon2 fas fa-store-alt"></i>
+    </div>
     <script src="cipher.js"></script>
-    <script src="index.js"></script> 
+   
 </body>
 </html>
+
 

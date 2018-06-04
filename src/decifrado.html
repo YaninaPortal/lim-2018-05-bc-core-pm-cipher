@@ -6,16 +6,35 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Decifrado</title>
     <link rel="stylesheet" href="decifrado.css">
+    <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/all.js" integrity="sha384-xymdQtn1n3lH2wcu0qhcdaOpQwyoarkgLVxC/wZ5q7h9gHtxICrpcaSUfygqZGOe" crossorigin="anonymous"></script>
 </head>
 <body>
-    <h1>Mensaje a Decifrar</h1>
-    <textarea name="comentarioADecifrar" rows="10" cols="30" placeholder="Mensaje a Decifrar" id="entrada_para_decifrar"></textarea>
-    <input type="number" placeholder="Nivel de Seguridad"  min="" max="" id="desplazamientoInverso" >
-    <input type="button" value="decifrar" id="decifrar">
-    <textarea name="comentarioADecifrar" rows="10" cols="30" placeholder="Mensaje Cifrado" id="salida_para_decifrar"></textarea>
-    <a href="index.html" class="button radius">Inicio</a>
-    <script src="cipher.js"></script>
-    <script src="index.js"></script>
+    <h1>Nivel de Seguridad de Decifrado</h1>
+
+    <div style="width: 100%">
+        <div class="cajaBase1">Basico<br> 1 - 20</div>
+        <div class="cajaBase2">Intermedio <br> 20 - 40</div>
+        <div class="cajaBase3">Alto<br> + 40</div>
+    </div>
+    <div id="deci1"></div>
+    <i class="iconHand far fa-hand-point-right"></i>
+    <input type="number" placeholder="Nivel de Seguridad"  min="1" max="" id="desplazamiento" >
+    </div>  
+    <div id="deci2">
+    <i class="iconMensaje far fa-envelope-open"></i>
+    <textarea name="comentariosACifrar" rows="10" cols="30" placeholder="Mensaje a Cifrar" id="entrada_para_decifrar"></textarea>
+    </div> 
+    <button type="button" class="button radius" id="decifrar">Decifrar</button>
+    <div id="deci3">
+    <i class="iconMensaje far fa-envelope-open"></i>
+    <p id="salida_de_decifrado"><span id>Mensaje Decifrado</span></p>
+    </div>   
+    <div id="deci4">
+    <a href="index.html" class="button radius" id="volverainicio2">Inicio</a>
+    <i class="iconcasa fas fa-store-alt"></i>
+    </div>
+    <script src="decipher.js"></script>
+    
 
 </body>
 </html>

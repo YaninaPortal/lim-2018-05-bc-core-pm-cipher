@@ -1,5 +1,76 @@
 body{
-    background-color:#FAFAFA;
+    background-color:#0489B1;
+}
+
+h1{
+    text-align: center;
+    font-family: Impact,Georgia,Verdana;
+    margin:auto;
+    margin-top:2%;
+}
+
+.iconMensaje {
+    font-size:75px;
+}
+
+.iconHand{
+    font-size:45px;
+    margin-left: 45%;
+}
+
+.iconcasa{
+    font-size:40px;  
+}
+div.cajaBase1{
+    margin:auto;
+    margin-top:3%;
+    margin-left:20%;
+    width: 20%;
+    background:red;
+    float: left;
+    text-align: center;
+    color:#fff;
+    font-family: Impact ,Georgia,Verdana;
+    display:inline;
+}
+
+div.cajaBase2{
+    margin:auto;
+    margin-top:3%;
+    width: 20%;
+    background:yellow;
+    float: left;
+    text-align: center;
+    color:#fff;
+    font-family: Impact ,Georgia,Verdana;
+    display:inline;
+}
+
+div.cajaBase3{
+    margin:auto;
+    margin-top:3%;
+    width: 20%;
+    background:green;
+    float: left;
+    text-align: center;
+     color:#fff;
+     font-family: Impact ,Georgia,Verdana;
+     display:inline;
+}
+
+#deci1{
+      display:block;
+      clear: both;
+      margin-left:45%;
+      margin-top:7%;
+
+}
+#deci2{
+    display:block;
+    clear: both;
+    margin-left:40%;
+    margin-top:2%;
+
 }
 
 .button {
@@ -19,7 +90,47 @@ body{
 border-radius: 50px;
 }
 
+.button.radius.inicio{
+    width:55%;
+}
+
+.icon-home3:before {
+        content: "\e902";
+}
+
 .button:hover {
     box-shadow: 0px 0px 0px;
     padding-top: 7px;
 }
+
+#decifrar{
+    display:block;
+    clear: both;
+    margin-left:45%;
+    margin-top:2%;
+}
+
+#deci3{
+     display:block;
+    clear: both;
+    margin-left:40%;
+    margin-top:2%;
+}
+
+#deci4{
+    display:block;
+    clear: both;
+    margin-left:80%;
+    margin-top:2%;
+}
+
+#volverainicio2{
+    display:inline-block;
+    width:45%;
+}
+
+#salida_de_decifrado{
+    display:inline-block;
+    margin-left:2%;
+}
+

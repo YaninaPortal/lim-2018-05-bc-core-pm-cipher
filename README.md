@@ -2,7 +2,7 @@
 
 ## Preámbulo
 
-Está próxima la fecha del cumpleaños de tu flacx (novix) y estás organizando una
+Está próxima la fecha del cumpleaños de tu flaco (novio) y estás organizando una
 fiesta sorpresa. Para organizar la fiesta has creado un grupo de Whatsapp junto
 con amigos y familiares.
 
@@ -16,10 +16,22 @@ descifrarlo. Así que ahora te toca aplicar tus superpoderes 😎
 ## Definicion del Producto
 
 ### Publico Objetivo del Producto.
-Al leer el reto pense en la gran cantidad de usuarios que podrian ver solucionado la deconfianza que sienten a que la informacion que intercambian se  leida por terceros aunque si bien las empresas hacen todo lo posible por brindar mayor seguridad los usuarios aun siguen teniendo ese temor , por ello mi app web esta dirigido a ellos.
+Al leer el reto pense en la gran cantidad de usuarios que podrian ver solucionado el temor  que sienten a que la información que intercambian sea  leida por terceros aunque si bien las empresas hacen todo lo posible por brindar mayor seguridad los usuarios aun siguen desconfiando , por ello mi app web esta dirigido a ellos.
 
 ### Objetivos de los usuarios con respecto al producto.
-El usuario al hacer uso de la app se encontrara con un interfaz amigable e intuitivo , para que directamente hagan uso de la app.
-
+Obtener la completa seguridad que sus conversaciones al cifrarse podran mantener su privacidad resguardada.
+El usuario al hacer uso de la app se encontrara con una interfaz amigable e intuitivo , adaptable a todos los dispositivos para su mayor comodidad donde cada tarea tendra su propio espacio a desarrollar.
+Por ello tanto el cifrado como el decifrado tiene su propia pagina para que el usuario tenga solo la informacion necesaria  para cada tarea a usar.
 ### Que problema soluciona.
+
 La percepcion de  vulnerabilidad que tiene los usuarios con respecto a las empresas de app de mensajerias instantaneas.
+Al validar el producto se encontro la disposicion de los usuarios por  probando soluciones alternas .
+
+https://image.ibb.co/feFek8/captura1.png
+
+https://image.ibb.co/dEXEJT/captura2.png
+
+
+
+
+

@@ -1,6 +1,6 @@
 window.cipher = {
   encode : function (offset, string){
-     var resultado = ""
+     let resultado = ""
      for (let i=0 ; i<string.length ; i++){
          
          let cambio = string.charCodeAt(i);
@@ -9,18 +9,17 @@ window.cipher = {
          resultado += cambio3
        }
        return resultado;
-  },
+  }
+}
 
-  decode : function (offset, string){
+let caja1 = document.getElementById("entrada_para_cifrar");
+let caja2 = document.getElementById("desplazamiento");
+let caja3 = document.getElementById("salida_de_cifrado");
+let button = document.getElementById("button_cifrar");
+  button.addEventListener("click", function(){
+  let valorDeLaCaja1 = caja1.value;
+  let valorDeLaCaja2 = parseInt(caja2.value);
+  let codigoCifrado = cipher.encode(valorDeLaCaja2 , valorDeLaCaja1)   
+  caja3.innerHTML = codigoCifrado;
+});
 
-     var resultado2 = ""
-     for (let i=0 ; i<string.length ; i++){
-       
-        let cambioDecifrado = string.charCodeAt(i);
-        let cambio22 = (cambioDecifrado-65 -offset)%26 +65;
-        let cambio33 = String.fromCharCode(cambio22);
-        resultado2 += cambio33
-      }
-     return resultado2;
-    }
-};

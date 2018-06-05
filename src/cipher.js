@@ -4,10 +4,14 @@ window.cipher = {
      for (let i=0 ; i<string.length ; i++){
          
          let cambio = string.charCodeAt(i);
-         if(cambio>=65 && cambio<=90){
-         let cambio2 = (cambio-65+offset)%26 + 65;
+         if((cambio>=65) && (cambio<=90)){
+         let cambio2 = (cambio-65+parseInt(offset))%26 + 65;
          let cambio3 = String.fromCharCode(cambio2);
          resultado += cambio3}
+         else if ((cambio>=97) && (cambio<=122)){
+          let cambio2 = (cambio-97+parseInt(offset) + 26 * 2)%26 + 97;
+          let cambio3 = String.fromCharCode(cambio2);
+          resultado += cambio3}
          else if(cambio === 32){
            resultado += String.fromCharCode(32);
           }
